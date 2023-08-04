@@ -14,7 +14,7 @@ public class App {
 
     public void openBrowser() {
         System.setProperty("webdriver.chrome.driver",
-                "C:\\Users\\madhu\\Downloads\\chromedriver_win32\\chromedriver.exe");
+                "C:\Users\Sanjay\Documents\SELENIUM\chromedriver_win32\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
